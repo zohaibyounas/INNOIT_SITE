@@ -1140,7 +1140,6 @@ a.text-jade-hover:hover {
   z-index: 1;
   -webkit-transform: rotate(-90deg) translate(-50%, 50%);
   transform: rotate(-90deg) translate(-50%, 50%);
-  transform-origin: 0 50%;
   transition: 1s cubic-bezier(0.7, 0, 0.3, 1) !important;
 }
 .sticky-wrap.shadow-in {

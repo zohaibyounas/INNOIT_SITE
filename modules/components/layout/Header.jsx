@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="header-with-topbar">
+    <header className="header-with-topbar ">
       <div
         className="header-top-bar top-bar-dark cover-background"
         style={{

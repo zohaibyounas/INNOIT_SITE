@@ -120,7 +120,10 @@ const Contact = () => {
                         </span> */}
                       <span className="d-block mb-30px">
                         <span className="text-dark-gray fw-600">Email:</span>{" "}
-                        <a href="mailto:info@yourdomain.com">
+                        <a
+                          className="text-black"
+                          href="mailto:info@yourdomain.com"
+                        >
                           Info@innoit.org{" "}
                         </a>
                       </span>
@@ -269,7 +272,7 @@ const Contact = () => {
                         <a href="tel:1234567890"> 123 456 7890</a>
                       </span>
                       <span className="d-block mb-30px">
-                        <span className="text-dark-gray fw-600">E:</span>{" "}
+                        <span className="text-dark-gray fw-600">Email:</span>{" "}
                         <a href="mailto:info@yourdomain.com">
                           info@yourdomain.com
                         </a>
@@ -396,7 +399,7 @@ const Contact = () => {
                 How can we help you today? Send a message at{" "}
                 <a
                   href="mailto:info@domain.com"
-                  className="text-decoration-line-bottom text-dark-gray fw-700"
+                  className="text-decoration-line-bottom text-dark-gray fw-700 text-black"
                 >
                   info@innoit.org
                 </a>
