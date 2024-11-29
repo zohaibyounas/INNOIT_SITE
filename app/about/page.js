@@ -166,7 +166,7 @@ const About = () => {
                   <span className="d-inline-block text-dark-gray fw-600 mb-5px fs-18 ls-minus-05px">
                     Expertise You Can Trust
                   </span>
-                  <p className="text-light-opacity">
+                  <p className="text-black">
                     Our consultants have extensive experience in SAP Business
                     One across various industries, ensuring that we understand
                     your business needs.
@@ -185,7 +185,7 @@ const About = () => {
                   <span className="d-inline-block text-dark-gray fw-600 mb-5px fs-18 ls-minus-05px">
                     Customized Solutions
                   </span>
-                  <p className="text-light-opacity">
+                  <p className="text-black">
                     We believe in a personalized approach—each solution we
                     design is tailored to meet your specific requirements.{" "}
                   </p>
@@ -206,7 +206,7 @@ const About = () => {
                   <span className="d-inline-block text-dark-gray fw-600 mb-5px fs-18 ls-minus-05px">
                     Comprehensive Training
                   </span>
-                  <p className="text-light-opacity">
+                  <p className="text-black">
                     Our training courses are crafted by industry professionals,
                     designed to provide you with the skills needed to become a
                     certified SAP B1 expert.
@@ -225,7 +225,7 @@ const About = () => {
                   <span className="d-inline-block text-dark-gray fw-600 mb-5px fs-18 ls-minus-05px">
                     Client-Focused Approach
                   </span>
-                  <p className="text-light-opacity">
+                  <p className="text-black">
                     We prioritize building long-lasting relationships with our
                     clients through reliable support, open communication, and a
                     commitment to your success.

@@ -71,13 +71,19 @@ const Footer = () => {
               </span>
               <ul>
                 <li>
-                  <a href="/">Home</a>
+                  <a className="text-white" href="/">
+                    Home
+                  </a>
                 </li>
                 <li>
-                  <a href="/about">About</a>
+                  <a className="text-white" href="/about">
+                    About
+                  </a>
                 </li>
                 <li>
-                  <a href="/services">Services</a>
+                  <a className="text-white" href="/services">
+                    Services
+                  </a>
                 </li>
               </ul>
             </div>
@@ -100,7 +106,7 @@ const Footer = () => {
               >
                 info@innoit.org
               </a> */}
-              <span className="d-inline-flex w-100">Address</span>
+              <span className="d-inline-flex w-100 text-white">Address</span>
               <div className="text-white lh-22 d-inline-flex">
                 First Floor, Zeeshan Arcade, Office No, 2, Street 49, G-13/2
                 Islamabad, 44220
@@ -108,7 +114,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="border-top border-color-transparent-white-light pt-35px pb-35px text-center">
-            <span className="fs-13 w-60 lg-w-70 md-w-100 d-block mx-auto lh-22">
+            <span className="fs-13 w-60 lg-w-70 md-w-100 d-block mx-auto lh-22 text-white">
               ©2023-24 - INNOIT Consultancy | All Rights Reserved
             </span>
           </div>

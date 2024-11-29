@@ -65,7 +65,7 @@ const Contact = () => {
             </li> */}
                 <li className="nav-item">
                   <a
-                    className="nav-link text-dark-gray"
+                    className="nav-link text-dark-gray text-black"
                     data-bs-toggle="tab"
                     href="#tab_five2"
                   >
@@ -109,7 +109,7 @@ const Contact = () => {
                       <span className="text-dark-gray fs-18 fw-600 ls-minus-05px">
                         First Floor, Zeeshan Arcade,
                       </span>
-                      <p>
+                      <p className="text-black">
                         Office No, 2, Street 49, G-13/2
                         <br />
                         Islamabad, 44220

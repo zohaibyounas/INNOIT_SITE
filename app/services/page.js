@@ -69,7 +69,7 @@ const Services = () => {
                 <h2 className="text-dark-gray fw-700 ls-minus-1px">
                   Custom Add-On Development
                 </h2>
-                <p>
+                <p className="text-black">
                   Expand the capabilities of SAP Business One with our tailored
                   third-party add-ons, including.
                 </p>
@@ -88,7 +88,7 @@ const Services = () => {
                     <span className="d-inline-block text-dark-gray fw-600 mb-5px fs-18 ls-minus-05px">
                       CRM Solutions:
                     </span>
-                    <p className="text-light-opacity">
+                    <p className="text-black">
                       Enhance customer relationship management.
                     </p>
                   </div>
@@ -105,7 +105,7 @@ const Services = () => {
                     <span className="d-inline-block text-dark-gray fw-600 mb-5px fs-18 ls-minus-05px">
                       Payroll Systems:
                     </span>
-                    <p className="text-light-opacity">
+                    <p className="text-black">
                       Streamline payroll processing and management.
                     </p>
                   </div>
@@ -125,7 +125,7 @@ const Services = () => {
                     <span className="d-inline-block text-dark-gray fw-600 mb-5px fs-18 ls-minus-05px">
                       Point of Sales (POS):
                     </span>
-                    <p className="text-light-opacity">
+                    <p className="text-black">
                       Integrate seamless sales solutions.
                     </p>
                   </div>
@@ -145,7 +145,7 @@ const Services = () => {
                     <span className="d-inline-block text-dark-gray fw-600 mb-5px fs-18 ls-minus-05px">
                       Weight Bridge Integration:
                     </span>
-                    <p className="text-light-opacity">
+                    <p className="text-black">
                       Optimize logistics with automated weight tracking.
                     </p>
                   </div>
@@ -165,7 +165,7 @@ const Services = () => {
                     <span className="d-inline-block text-dark-gray fw-600 mb-5px fs-18 ls-minus-05px">
                       Email Caster:
                     </span>
-                    <p className="text-light-opacity">
+                    <p className="text-black">
                       Simplify bulk email communication.
                     </p>
                   </div>
@@ -185,7 +185,7 @@ const Services = () => {
                     <span className="d-inline-block text-dark-gray fw-600 mb-5px fs-18 ls-minus-05px">
                       WhatsApp Integration:
                     </span>
-                    <p className="text-light-opacity">
+                    <p className="text-black">
                       Boost communication with integrated WhatsApp solutions.
                     </p>
                   </div>
@@ -204,7 +204,7 @@ const Services = () => {
                     <span className="d-inline-block text-dark-gray fw-600 mb-5px fs-18 ls-minus-05px">
                       Payment Add-On:
                     </span>
-                    <p className="text-light-opacity">
+                    <p className="text-black">
                       Facilitate secure and efficient payment processing within
                       SAP Business One.
                     </p>
@@ -224,7 +224,7 @@ const Services = () => {
                     <span className="d-inline-block text-dark-gray fw-600 mb-5px fs-18 ls-minus-05px">
                       Learning Management System (LMS):
                     </span>
-                    <p className="text-light-opacity">
+                    <p className="text-black">
                       Deliver and manage online training and e-learning courses.
                     </p>
                   </div>
@@ -240,7 +240,7 @@ const Services = () => {
                     <span className="d-inline-block text-dark-gray fw-600 mb-5px fs-18 ls-minus-05px">
                       Employee Self-Service Mobile App:
                     </span>
-                    <p className="text-light-opacity">
+                    <p className="text-black">
                       Empower employees to manage their own information and
                       requests.
                     </p>
@@ -260,7 +260,7 @@ const Services = () => {
                     <span className="d-inline-block text-dark-gray fw-600 mb-5px fs-18 ls-minus-05px">
                       Sales Order Mobile App:
                     </span>
-                    <p className="text-light-opacity">
+                    <p className="text-black">
                       Streamline the sales process with an easy-to-use mobile
                       application for order management.
                     </p>

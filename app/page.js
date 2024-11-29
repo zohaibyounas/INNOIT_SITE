@@ -80,12 +80,12 @@ export default function Home() {
               >
                 <img
                   className="w-100"
-                  //  src="/images/demo-hosting-home-slider-01.webp"
+                  src="/images/demo-hosting-home-slider-01.webp"
                   alt=""
                 />
                 <img
                   className="w-100 position-absolute left-minus-2px top-minus-5px animation-float"
-                  // src="/images/demo-hosting-home-slider-02.webp"
+                  src="/images/demo-hosting-home-slider-02.webp"
                   alt=""
                 />
               </div>
@@ -162,7 +162,7 @@ export default function Home() {
                   <span className="d-inline-block fw-600 text-dark-gray fs-18 ls-minus-05px">
                     Tailored Solutions
                   </span>
-                  <p className="mb-10px">
+                  <p className="mb-10px text-black">
                     Our SAP Business One consulting services are customized to
                     meet your unique business needs, providing precise and
                     effective solutions for enhanced productivity.
@@ -199,7 +199,7 @@ export default function Home() {
                   <span className="d-inline-block fw-600 text-dark-gray fs-18 ls-minus-05px">
                     Security
                   </span>
-                  <p className="mb-10px">
+                  <p className="mb-10px text-black">
                     We ensure the highest level of data security in SAP B1
                     implementation with strict measures, including secure
                     access, audit controls, and encryption.
@@ -236,7 +236,7 @@ export default function Home() {
                   <span className="d-inline-block fw-600 text-dark-gray fs-18 ls-minus-05px">
                     24/7 Support
                   </span>
-                  <p className="mb-10px">
+                  <p className="mb-10px text-black">
                     Our dedicated support team is available 24/7, ensuring that
                     any issues with your SAP B1 environment are promptly
                     addressed for seamless business operations.
@@ -273,7 +273,7 @@ export default function Home() {
                   <span className="d-inline-block fw-600 text-dark-gray fs-18 ls-minus-05px">
                     Scalability
                   </span>
-                  <p className="mb-10px">
+                  <p className="mb-10px text-black">
                     Our scalable solutions allow you to adjust resources
                     flexibly within SAP B1 as your business grows, ensuring
                     consistent performance and reliability
