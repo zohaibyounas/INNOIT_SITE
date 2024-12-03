@@ -9,7 +9,7 @@ import CustomScripts from "@/modules/scripts/CustomScripts";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "INNOIT Business Software solution",
+  title: "INNOIT || Business Software solution",
   description:
     "Your Gateway to cutting-edge ERP technology with SAP Business One, Innovative Web Solutions and Cloud Services",
 };
