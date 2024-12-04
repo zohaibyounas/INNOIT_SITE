@@ -14,7 +14,7 @@ export default function Home() {
           data-particle="true"
           data-particle-options='{"particles": {"number": {"value": 12,"density": {"enable": true,"value_area": 2000}},"color": {"value": ["#ed00a8", "#ed00a8", "#ed00a8", "#ed00a8"]},"shape": {"type": "edge","stroke":{"width":0,"color":"#000000"}},"opacity": {"value": 0.8,"random": false,"anim": {"enable": false,"speed": 1,"sync": false}},"size": {"value": 5,"random": true,"anim": {"enable": false,"sync": true}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":0.4,"width":1},"move": {"enable": true,"speed":1,"direction": "right","random": false,"straight": false}},"interactivity": {"detect_on": "canvas","events": {"onhover": {"enable": false,"mode": "repulse"},"onclick": {"enable": false,"mode": "push"},"resize": true}},"retina_detect": false}'
         />
-        <div className="container h-100">
+        <div className="container h-100 overflow-hidden ">
           <div className="row align-items-center justify-content-center h-100">
             <div className="col-xl-7 col-lg-8 col-md-10 text-white position-relative text-center  text-lg-start ">
               <div className="fs-70 sm-fs-60 xs-fs-60 fw-600 mb-20px ls-minus-4px overflow-hidden ">
@@ -445,8 +445,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <StickyElements />
     </>
   );
 }
