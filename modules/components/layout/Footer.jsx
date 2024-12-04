@@ -28,8 +28,8 @@ const Footer = () => {
                   <li className="my-0">
                     <a
                       className="facebook"
-                      href="https://www.facebook.com/"
-                      target="_blank"
+                      // href="https://www.facebook.com/"
+                      // target="_blank"
                     >
                       <i className="fa-brands fa-facebook-f" />
                     </a>
@@ -37,8 +37,8 @@ const Footer = () => {
                   <li className="my-0">
                     <a
                       className="linkedin text-white"
-                      href="https://www.linkedin.com/"
-                      target="_blank"
+                      // href="https://www.linkedin.com/"
+                      // target="_blank"
                     >
                       <i className="fa-brands fa-linkedin-in" />
                     </a>
@@ -46,8 +46,8 @@ const Footer = () => {
                   <li className="my-0">
                     <a
                       className="twitter"
-                      href="http://www.twitter.com"
-                      target="_blank"
+                      // href="http://www.twitter.com"
+                      // target="_blank"
                     >
                       <i className="fa-brands fa-twitter" />
                     </a>
@@ -55,8 +55,8 @@ const Footer = () => {
                   <li className="my-0">
                     <a
                       className="instagram"
-                      href="http://www.instagram.com"
-                      target="_blank"
+                      // href="http://www.instagram.com"
+                      // target="_blank"
                     >
                       <i className="fa-brands fa-instagram" />
                     </a>
