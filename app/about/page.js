@@ -251,7 +251,7 @@ const About = () => {
               >
                 <div className="d-inline-block mb-45px sm-mb-25px">
                   <a
-                    href="https://www.youtube.com/watch?v=cfXHhfNy7tU"
+                    href="https://www.youtube.com/watch?v=CHe6LLvkDnY"
                     className="position-relative bg-white d-inline-block text-center rounded-circle video-icon-box video-icon-large popup-youtube"
                   >
                     <span>

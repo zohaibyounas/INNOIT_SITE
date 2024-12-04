@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       {/* start footer */}
       <footer
-        className="footer-dark bg-dark-blue pb-0 cover-background background-position-left-top "
+        className="footer-dark bg-dark-blue pb-0 cover-background background-position-left-top mt-2 "
         style={{
           backgroundImage: 'url("images/demo-hosting-footer-bg.jpg")',
         }}
