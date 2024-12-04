@@ -23,7 +23,6 @@ export default function RootLayout({ children }) {
         className={`${inter.className} antialiased`}
       >
         <Header />
-        npm run build
         {children}
         <Footer />
         <ScrollProgress />
