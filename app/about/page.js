@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { FaCheck, FaTools, FaGraduationCap, FaHandshake } from "react-icons/fa";
 import {

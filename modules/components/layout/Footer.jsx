@@ -65,11 +65,8 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-6 col-lg-2 col-sm-4 xs-mb-30px order-sm-3 order-lg-2">
-              <span className="fs-17 fw-500 d-block text-white mb-5px">
-                Company
-              </span>
-              <ul>
+            <div className="col-12 col-sm-4 col-lg-2 xs-mb-30px order-sm-3 order-lg-2">
+              <ul className="d-flex flex-column align-items-start">
                 <li>
                   <a className="text-white" href="/">
                     Home
