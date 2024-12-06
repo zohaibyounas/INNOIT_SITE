@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(
   cors({
     exposedHeaders: ["Content-Length", "Authorization"],
-    origin: "http://localhost:3000 , https://innoit.org",
+    origin: "http://localhost:3000 , https://innoit.org/",
     credentials: true,
   })
 );
