@@ -15,7 +15,7 @@ export async function POST(req) {
 
     // Set up the transporter for sending the email
     const transporter = createTransport({
-      host: "mail.innoit.org", // Replace with your SMTP server
+      host: "mail.innoit.org", //
       port: 465, // Or 587 (depending on your SMTP configuration)
       secure: true, // Use true for 465, false for 587
       auth: {
