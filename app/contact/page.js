@@ -20,13 +20,16 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://innoit.org/send-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://backend-innoit.vercel.app/send-email",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       const data = await response.json(); // Read the response from the server
 
