@@ -13,8 +13,8 @@ export async function POST(req) {
 
     const transporter = createTransport({
       host: process.env.SMTP_HOST,
-      port: 465, // Use 465 for SSL or 587 for STARTTLS
-      secure: true,
+      port: 587, // Use 465 for SSL or 587 for STARTTLS
+      //secure: true,
       auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASS,
