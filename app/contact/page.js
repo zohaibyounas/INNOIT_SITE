@@ -1,7 +1,6 @@
 "use client";
-import axios from "axios";
 import React, { useState } from "react";
-//import route from "../api/email/route";
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -20,27 +19,23 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    console.log(formData);
     try {
-      const response = await axios.post("/api/email", formData);
-      const data = response.data;
-      console.log(data);
-      // const response = await fetch("/api/email", {
-      //   method: "POST",
-      //   headers: {
-      //     "Content-Type": "application/json",
-      //   },
-      //   body: JSON.stringify(formData),
-      // });
+      const response = await fetch("/api/email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
-      // const data = await response.json(); // Read the response from the server
+      const data = await response.json(); // Read the response from the server
 
-      // if (response.ok) {
-      // alert("Message sent successfully!");
-      setFormData({ name: "", email: "", message: "" });
-      // } else {
-      // alert(`Error sending message: ${data.message || "Unknown error"}`);
-      // }
+      if (response.ok) {
+        alert("Message sent successfully!");
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        alert(`Error sending message: ${data.message || "Unknown error"}`);
+      }
     } catch (error) {
       console.error("Error occurred during fetch:", error);
       alert("There was an error sending the message. Please try again.");
