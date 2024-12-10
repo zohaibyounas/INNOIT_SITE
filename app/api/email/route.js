@@ -1,4 +1,4 @@
-import { createTransport } from "nodemailer";
+import nodemailer from "nodemailer";
 import { NextResponse } from "next/server";
 
 export async function POST(req) {
@@ -23,7 +23,7 @@ export async function POST(req) {
     //   },
     // });
 
-    const transporter = createTransport({
+    const transporter = nodemailer.createTransport({
       host: "sandbox.smtp.mailtrap.io",
       port: 2525, // Use 465 for SSL or 587 for STARTTLS
       auth: {
