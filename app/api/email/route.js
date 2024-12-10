@@ -1,50 +1,45 @@
 import { createTransport } from "nodemailer";
-import { NextResponse } from "next/server";
 
 export async function POST(req) {
   try {
-    const { name, email, message } = await req.json(); // Read the body data
+    const { name, email, message } = await req.json();
 
-    // Validate the input data
     if (!name || !email || !message) {
-      return NextResponse.json(
-        { message: "Please provide all fields (name, email, message)." },
+      return new Response(
+        JSON.stringify({ message: "All fields are required." }),
         { status: 400 }
       );
     }
 
-    // Set up the transporter for sending the email
     const transporter = createTransport({
-      host: "mail.innoit.org", //
-      port: 465, // Or 587 (depending on your SMTP configuration)
-      // secure: true, // Use true for 465, false for 587
+      host: process.env.SMTP_HOST,
+      port: 465, // Use 465 for SSL or 587 for STARTTLS
+      secure: true,
       auth: {
-        user: "info@innoit.org", // Your email address
-        pass: "**7Goodman", // Your email account password
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
       },
     });
 
-    // Set up the mail options
     const mailOptions = {
-      from: email, // Sender's email (from the user)
-      to: "info@innoit.org", // Recipient's email
+      from: `"${name}" <${email}>`,
+      to: process.env.RECIPIENT_EMAIL,
       subject: `New Message from ${name}`,
-      text: `You have received a new message from:\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`,
+      text: `You have received a new message:\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`,
     };
-    console.log(mailOptions);
-    // Send the email
+
     await transporter.sendMail(mailOptions);
 
-    // Return a success response
-    return NextResponse.json(
-      { message: "Email sent successfully" },
-      { status: 200 }
+    return new Response(
+      JSON.stringify({ message: "Email sent successfully" }),
+      {
+        status: 200,
+      }
     );
   } catch (error) {
     console.error("Error sending email:", error);
-    return NextResponse.json(
-      { message: "Error sending email" },
-      { status: 500 }
-    );
+    return new Response(JSON.stringify({ message: "Failed to send email." }), {
+      status: 500,
+    });
   }
 }
