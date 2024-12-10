@@ -13,13 +13,22 @@ export async function POST(req) {
       );
     }
 
+    // const transporter = createTransport({
+    //   host: process.env.SMTP_HOST,
+    //   port: 465, // Use 465 for SSL or 587 for STARTTLS
+    //   secure: true,
+    //   auth: {
+    //     user: process.env.SMTP_USER,
+    //     pass: process.env.SMTP_PASS,
+    //   },
+    // });
+
     const transporter = createTransport({
-      host: process.env.SMTP_HOST,
-      port: 465, // Use 465 for SSL or 587 for STARTTLS
-      secure: true,
+      host: "sandbox.smtp.mailtrap.io",
+      port: 2525, // Use 465 for SSL or 587 for STARTTLS
       auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
+        user: "db6b669df2c85e",
+        pass: "6fba4f58ec95cf",
       },
     });
 
